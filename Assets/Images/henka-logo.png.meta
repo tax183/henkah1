@@ -172,7 +172,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      henka-logo_0: 465704252685315705
+      henka-logo_1: 9086255253846498279
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
