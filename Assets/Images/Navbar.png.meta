@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 89e01b23faaf16c43bb0ec6bd394bbdd
+guid: a0f809d95bbad3d4eb1af097daaa0243
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5725184139431673129
-    second: stone_0
+      213: -4247482761759166210
+    second: Navbar_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: stone_0
+      name: Navbar_0
       rect:
         serializedVersion: 2
-        x: 10
-        y: 4
-        width: 77
-        height: 96
+        x: 0
+        y: 0
+        width: 3643
+        height: 962
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 92d768834a0f37f40800000000000000
-      internalID: 5725184139431673129
+      spriteID: ef0ffbbaee8ed05c0800000000000000
+      internalID: -4247482761759166210
       vertices: []
       indices: 
       edges: []
@@ -147,8 +147,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      stone_0: 5725184139431673129
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
