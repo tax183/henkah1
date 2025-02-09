@@ -1,13 +1,19 @@
 fileFormatVersion: 2
-guid: c247554a1b7426c4ea14e33929fdebe1
+guid: 3f9946340f4bd8942b8926539a38d0b4
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 465704252685315705
-    second: henka-logo_0
+      213: -4883126791441479231
+    second: Stoneyellow_0
   - first:
-      213: 9086255253846498279
-    second: henka-logo_1
+      213: 2107709650748306893
+    second: Stoneyellow_1
+  - first:
+      213: -5850248452006814250
+    second: Stoneyellow_2
+  - first:
+      213: -7140858720747580465
+    second: Stoneyellow_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,7 +106,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-    buildTarget: iOS
+    buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -116,13 +122,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: henka-logo_0
+      name: Stoneyellow_0
       rect:
         serializedVersion: 2
-        x: 2
-        y: 0
-        width: 1960
-        height: 1203
+        x: 38
+        y: 15
+        width: 305
+        height: 398
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -131,20 +137,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 97e62b7ec83867600800000000000000
-      internalID: 465704252685315705
+      spriteID: 1c900fa1e06ab3cb0800000000000000
+      internalID: -4883126791441479231
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: henka-logo_1
+      name: Stoneyellow_1
       rect:
         serializedVersion: 2
-        x: 174
-        y: 1021
-        width: 506
-        height: 373
+        x: 156
+        y: 404
+        width: 7
+        height: 6
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -153,8 +159,52 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7eb1c08230dd81e70800000000000000
-      internalID: 9086255253846498279
+      spriteID: dc5f38e92c6104d10800000000000000
+      internalID: 2107709650748306893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stoneyellow_2
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 404
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ddda52670ebfcea0800000000000000
+      internalID: -5850248452006814250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stoneyellow_3
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 281
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc3179ec3d296ec90800000000000000
+      internalID: -7140858720747580465
       vertices: []
       indices: 
       edges: []
@@ -172,9 +222,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      henka-logo_0: 465704252685315705
-      henka-logo_1: 9086255253846498279
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,0 +1,13 @@
+using UnityEngine;
+
+public class UIManager : MonoBehaviour
+{
+    public GameObject settingsPanel;
+    public GameObject board;
+
+    public void StartGame()
+    {
+        settingsPanel.SetActive(false); // ≈Œ›«¡ «·≈⁄œ«œ« 
+        board.SetActive(true); // ≈ŸÂ«— «·»Ê—œ
+    }
+}
