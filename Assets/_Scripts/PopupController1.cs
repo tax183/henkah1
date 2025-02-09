@@ -1,9 +1,11 @@
 ﻿using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PopupController : MonoBehaviour
 {
     public GameObject popupWindow1; // النافذة الأولى
     public GameObject popupWindow2; // النافذة الثانية
+
 
     void Start()
     {
@@ -33,4 +35,6 @@ public class PopupController : MonoBehaviour
         if (popupWindow1 != null)
             popupWindow1.SetActive(true); // إعادة إظهار النافذة الأولى
     }
+
+
 }
