@@ -197,7 +197,10 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Stonebrown_0: 5802623485900211011
+      Stonebrown_1: 5609705702843149506
+      Stonebrown_2: 469090751389419869
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

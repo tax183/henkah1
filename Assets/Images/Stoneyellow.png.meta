@@ -222,7 +222,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Stoneyellow_0: -4883126791441479231
+      Stoneyellow_1: 2107709650748306893
+      Stoneyellow_2: -5850248452006814250
+      Stoneyellow_3: -7140858720747580465
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
