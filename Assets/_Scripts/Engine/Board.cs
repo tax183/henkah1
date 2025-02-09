@@ -1,8 +1,11 @@
 ﻿using System.Collections.Generic;
+using UnityEngine;
 
-public class Board
+[AddComponentMenu("Game/Board")]
+public class Board : MonoBehaviour
 {
     public static int DEFAULT_NUMBER_OF_FIELDS = 24;
+
 
     public List<Field> Fields
     {
