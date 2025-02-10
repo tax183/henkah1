@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1366
     height: 685
   m_ShowMode: 4
-  m_Title: Scene
+  m_Title: Project
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -141,12 +141,12 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 1099.3334
+    x: 1113.3334
     y: 0
-    width: 340.66663
+    width: 326.66663
     height: 813.3333
-  m_MinSize: {x: 276, y: 76}
-  m_MaxSize: {x: 4001, y: 4026}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -215,9 +215,14 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
 <<<<<<< Updated upstream
     width: 272
     height: 493.33334
+=======
+    width: 288
+    height: 547.3333
+>>>>>>> origin/rahaf
   m_MinSize: {x: 201, y: 226}
   m_MaxSize: {x: 4001, y: 4026}
   m_ActualView: {fileID: 15}
@@ -280,10 +285,16 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
+<<<<<<< HEAD
 <<<<<<< Updated upstream
     y: 493.33334
     width: 1099.3334
     height: 319.99997
+=======
+    y: 547.3333
+    width: 1113.3334
+    height: 266
+>>>>>>> origin/rahaf
   m_MinSize: {x: 231, y: 276}
   m_MaxSize: {x: 10001, y: 10026}
   m_ActualView: {fileID: 13}
@@ -382,7 +393,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1099.3334
+    width: 1113.3334
     height: 813.3333
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 16192}
@@ -408,8 +419,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1099.3334
-    height: 493.33334
+    width: 1113.3334
+    height: 547.3333
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
@@ -447,11 +458,15 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
+<<<<<<< HEAD
 <<<<<<< Updated upstream
     x: 272
+=======
+    x: 288
+>>>>>>> origin/rahaf
     y: 0
-    width: 827.3334
-    height: 493.33334
+    width: 825.3334
+    height: 547.3333
   m_MinSize: {x: 202, y: 226}
   m_MaxSize: {x: 4002, y: 4026}
   m_ActualView: {fileID: 16}
@@ -499,6 +514,7 @@ MonoBehaviour:
     m_TextWithWhitespace: "Simulator\u200B"
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
 <<<<<<< Updated upstream
     x: 272
     y: 78.66667
@@ -510,6 +526,12 @@ MonoBehaviour:
     width: 783
     height: 513
 >>>>>>> Stashed changes
+=======
+    x: 288
+    y: 78.66667
+    width: 823.3334
+    height: 521.3333
+>>>>>>> origin/rahaf
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -554,10 +576,11 @@ MonoBehaviour:
     - UnityEditor.DeviceSimulation.ApplicationSettingsPlugin
     pluginStates:
     - '{}'
-    scale: 14
+    scale: 17
     fitToScreenEnabled: 0
     rotationDegree: 0
     highlightSafeAreaEnabled: 0
+<<<<<<< HEAD
     friendlyName: Apple iPhone 12 Pro
 =======
     controlPanelVisible: 1
@@ -578,6 +601,9 @@ MonoBehaviour:
     highlightSafeAreaEnabled: 0
     friendlyName: Apple iPhone 12 Pro Max
 >>>>>>> Stashed changes
+=======
+    friendlyName: Apple iPhone 12
+>>>>>>> origin/rahaf
     screenIndex: 0
     networkReachability: 1
     systemLanguage: 10
@@ -605,9 +631,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 572
-    width: 1098.3334
-    height: 293.99997
+    y: 626
+    width: 1112.3334
+    height: 240
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -630,7 +656,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Images
+    - Assets/Scenes
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -638,18 +664,18 @@ MonoBehaviour:
     m_ImportLogFlags: 0
     m_FilterByTypeIntersection: 0
   m_ViewMode: 1
-  m_StartGridSize: 64
+  m_StartGridSize: 96
   m_LastFolders:
-  - Assets/Images
-  m_LastFoldersGridSize: -1
+  - Assets/Scenes
+  m_LastFoldersGridSize: 96
   m_LastProjectPath: D:\henkah1
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 60710000
-    m_LastClickedID: 29024
-    m_ExpandedIDs: 00000000f870000000ca9a3bffffff7f
+    m_SelectedIDs: 3c730000
+    m_LastClickedID: 29500
+    m_ExpandedIDs: 00000000de72000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -678,7 +704,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000f8700000
+    m_ExpandedIDs: 00000000de720000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -724,7 +750,7 @@ MonoBehaviour:
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_TrimLeadingAndTrailingWhitespace: 0
-      m_ClientGUIView: {fileID: 11}
+      m_ClientGUIView: {fileID: 5}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -733,7 +759,7 @@ MonoBehaviour:
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
     m_ScrollPosition: {x: 0, y: 0}
-    m_GridSize: 64
+    m_GridSize: 96
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 207
 --- !u!114 &14
@@ -758,9 +784,9 @@ MonoBehaviour:
     m_TextWithWhitespace: "Inspector\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 1099.3334
+    x: 1113.3334
     y: 78.66667
-    width: 339.66663
+    width: 325.66663
     height: 787.3333
   m_SerializedDataModeController:
     m_DataMode: 0
@@ -817,6 +843,7 @@ MonoBehaviour:
     x: 0
 <<<<<<< Updated upstream
     y: 78.66667
+<<<<<<< HEAD
     width: 271
     height: 467.33334
 =======
@@ -824,6 +851,10 @@ MonoBehaviour:
     width: 257
     height: 513
 >>>>>>> Stashed changes
+=======
+    width: 287
+    height: 521.3333
+>>>>>>> origin/rahaf
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -838,6 +869,7 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
+<<<<<<< HEAD
 <<<<<<< Updated upstream
       m_SelectedIDs: 26f0ffff
       m_LastClickedID: -4058
@@ -847,6 +879,11 @@ MonoBehaviour:
       m_LastClickedID: 0
       m_ExpandedIDs: 9cf2ffff
 >>>>>>> Stashed changes
+=======
+      m_SelectedIDs: 6c730000
+      m_LastClickedID: 0
+      m_ExpandedIDs: 8688ffffd688ffff4089ffff9289fffff489ffff628affffb08affffce8cffff368dffffc68dffff7891ffffca93ffff2694ffffa696fffff696ffff9297fffff897ffffd698ffff28a9ffffb4a9fffffeaaffff4aabffff98abffffe4abffff4cb4ffff9ab4ffffe8b4ffff10b6ffff62b6ffffc8b7ffffbcb8ffff8cbcffffdcbcffff80beffff14c5ffffcac7ffffc4e4ffff28ebffffd8ebffff24ecfffff8ecffff0eeeffffdeeeffff56efffff92f2ffff9cf4ffff66f6ffff3ef9ffffa6f9ffff22fbffffb474000094770000ce770000d478000088790000047a00009a7a00009e7b00009e7c0000207d00005e7e0000527f00001a800000588100008a810000da83000028840000b4870000ec8700001a880000a48a0000428b0000988b0000d08b0000188f0000d6910000a2960000d0960000c4980000fc980000089a0000409a0000
+>>>>>>> origin/rahaf
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -905,6 +942,7 @@ MonoBehaviour:
     m_TextWithWhitespace: "Scene\u200B"
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
 <<<<<<< Updated upstream
     x: 272
     y: 78.66667
@@ -916,6 +954,12 @@ MonoBehaviour:
     width: 783
     height: 328
 >>>>>>> Stashed changes
+=======
+    x: 288
+    y: 78.66667
+    width: 823.3334
+    height: 521.3333
+>>>>>>> origin/rahaf
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -1556,6 +1600,7 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
+<<<<<<< HEAD
 <<<<<<< Updated upstream
     m_Target: {x: 683.4219, y: 1093.4341, z: -11.453079}
     speed: 2
@@ -1565,6 +1610,11 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0}
 >>>>>>> Stashed changes
+=======
+    m_Target: {x: 438.8224, y: 1326.4635, z: -8.048995}
+    speed: 2
+    m_Value: {x: 438.8224, y: 1326.4635, z: -8.048995}
+>>>>>>> origin/rahaf
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1594,11 +1644,15 @@ MonoBehaviour:
       m_Fade:
         m_Target: 0
         speed: 2
+<<<<<<< HEAD
 <<<<<<< Updated upstream
         m_Value: 1
 =======
         m_Value: 0
 >>>>>>> Stashed changes
+=======
+        m_Value: 0
+>>>>>>> origin/rahaf
       m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
       m_Pivot: {x: 0, y: 0, z: 0}
       m_Size: {x: 1, y: 1}
@@ -1626,12 +1680,17 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: 0, y: 0, z: 0, w: 1}
     speed: 2
+<<<<<<< HEAD
 <<<<<<< Updated upstream
     m_Value: {x: 0.0000000066571246, y: -0.000000068699435, z: 0.000000016071722,
       w: 0.99999994}
+=======
+    m_Value: {x: 0, y: 0, z: 0, w: 1}
+>>>>>>> origin/rahaf
   m_Size:
-    m_Target: 1229.8235
+    m_Target: 1394.1884
     speed: 2
+<<<<<<< HEAD
     m_Value: 1287.7733
 =======
     m_Value: {x: 0, y: 0, z: 0, w: 1}
@@ -1640,6 +1699,9 @@ MonoBehaviour:
     speed: 2
     m_Value: 10
 >>>>>>> Stashed changes
+=======
+    m_Value: 1394.1884
+>>>>>>> origin/rahaf
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -1657,8 +1719,12 @@ MonoBehaviour:
     m_FarClip: 10000
     m_DynamicClip: 1
     m_OcclusionCulling: 0
+<<<<<<< HEAD
 <<<<<<< Updated upstream
   m_LastSceneViewRotation: {x: 0.087172285, y: -0.8995905, z: 0.21045253, w: 0.37262288}
+=======
+  m_LastSceneViewRotation: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
+>>>>>>> origin/rahaf
   m_LastSceneViewOrtho: 0
   m_Viewpoint:
     m_SceneView: {fileID: 16}
@@ -1865,6 +1931,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
+<<<<<<< HEAD
 <<<<<<< Updated upstream
     y: 636
     width: 1171.8
@@ -1874,6 +1941,11 @@ MonoBehaviour:
     width: 1042
     height: 306
 >>>>>>> Stashed changes
+=======
+    y: 626
+    width: 1112.3334
+    height: 240
+>>>>>>> origin/rahaf
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
