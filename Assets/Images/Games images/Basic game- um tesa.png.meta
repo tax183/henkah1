@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Basic game- um tesa_0: 174355762600384901
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

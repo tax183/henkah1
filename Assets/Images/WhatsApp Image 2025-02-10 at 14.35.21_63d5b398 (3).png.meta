@@ -1,10 +1,16 @@
 fileFormatVersion: 2
-guid: b8f7e2b761b889a40a38ea08f8d53a96
+guid: b5c2f3afd7b2cda47a9349162aedfe2c
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2554768595615315461
-    second: Friends_0
+      213: -1985454575176904997
+    second: WhatsApp Image 2025-02-10 at 14.35.21_63d5b398 (3)_0
+  - first:
+      213: -747332825565504832
+    second: WhatsApp Image 2025-02-10 at 14.35.21_63d5b398 (3)_1
+  - first:
+      213: -8066676614823417391
+    second: WhatsApp Image 2025-02-10 at 14.35.21_63d5b398 (3)_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +119,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Friends_0
+      name: WhatsApp Image 2025-02-10 at 14.35.21_63d5b398 (3)_0
       rect:
         serializedVersion: 2
-        x: 28
-        y: 133
-        width: 754
-        height: 686
+        x: 0
+        y: 247
+        width: 128
+        height: 207
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +134,52 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bf9860f7f73ab8cd0800000000000000
-      internalID: -2554768595615315461
+      spriteID: bde08e0559f3274e0800000000000000
+      internalID: -1985454575176904997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhatsApp Image 2025-02-10 at 14.35.21_63d5b398 (3)_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 613
+        height: 449
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cadd2331c0f0a5f0800000000000000
+      internalID: -747332825565504832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhatsApp Image 2025-02-10 at 14.35.21_63d5b398 (3)_2
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 419
+        width: 102
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d9ef7f9b586d0090800000000000000
+      internalID: -8066676614823417391
       vertices: []
       indices: 
       edges: []
@@ -147,8 +197,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      Friends_0: -2554768595615315461
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

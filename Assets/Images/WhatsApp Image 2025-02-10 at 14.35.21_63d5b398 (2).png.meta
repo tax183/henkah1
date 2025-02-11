@@ -1,10 +1,13 @@
 fileFormatVersion: 2
-guid: b8f7e2b761b889a40a38ea08f8d53a96
+guid: 0a564f3d66a7c2640bc9b15cb64365c9
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2554768595615315461
-    second: Friends_0
+      213: 2688607190631232757
+    second: WhatsApp Image 2025-02-10 at 14.35.21_63d5b398 (2)_0
+  - first:
+      213: 2233739493126110566
+    second: WhatsApp Image 2025-02-10 at 14.35.21_63d5b398 (2)_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +116,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Friends_0
+      name: WhatsApp Image 2025-02-10 at 14.35.21_63d5b398 (2)_0
       rect:
         serializedVersion: 2
-        x: 28
-        y: 133
-        width: 754
-        height: 686
+        x: 0
+        y: 0
+        width: 622
+        height: 531
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +131,30 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bf9860f7f73ab8cd0800000000000000
-      internalID: -2554768595615315461
+      spriteID: 5f4b22abef9df4520800000000000000
+      internalID: 2688607190631232757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhatsApp Image 2025-02-10 at 14.35.21_63d5b398 (2)_1
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 0
+        width: 42
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66dfa80fb36dffe10800000000000000
+      internalID: 2233739493126110566
       vertices: []
       indices: 
       edges: []
@@ -147,8 +172,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      Friends_0: -2554768595615315461
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
