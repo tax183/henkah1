@@ -314,4 +314,22 @@ public class GameUIController : MonoBehaviour
             }
         }
     }
+    public void SetEasyDifficulty()
+    {
+        Debug.Log("تم اختيار المستوى السهل");
+        PlayerPrefs.SetInt("Difficulty", 1);
+    }
+
+    public void SetMediumDifficulty()
+    {
+        Debug.Log("تم اختيار المستوى المتوسط");
+        PlayerPrefs.SetInt("Difficulty", 2);
+    }
+
+    public void SetHardDifficulty()
+    {
+        Debug.Log("تم اختيار المستوى الصعب");
+        PlayerPrefs.SetInt("Difficulty", 3);
+    }
+
 }

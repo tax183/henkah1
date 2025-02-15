@@ -1,56 +1,56 @@
 ﻿using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.UI;
 
-public class Board
+public class Board : MonoBehaviour
 {
-    public static int DEFAULT_NUMBER_OF_FIELDS = 24;
+    public static int DEFAULT_NUMBER_OF_FIELDS = 24; // عدد المربعات الافتراضي
 
-    public List<Field> Fields
+    [SerializeField] private GameObject fieldPrefab;  // مرجع إلى الـ Prefab الخاص بالمربعات
+    [SerializeField] private Transform boardContainer; // اللوحة التي سيتم وضع المربعات داخلها (BoardPanel)
+
+    private List<Field> fields = new List<Field>(); // تخزين المربعات
+  
+
+    void Start()
     {
-        get
+        GenerateBoard(); // عند بدء اللعبة، يتم إنشاء المربعات
+                         // البحث عن الكائنات تلقائيًا داخل المشهد
+        fieldPrefab = GameObject.Find("FieldButton");
+        boardContainer = GameObject.Find("BoardPanel").transform;
+
+        if (fieldPrefab == null || boardContainer == null)
         {
-            return fields;
+            Debug.LogError("لم يتم العثور على FieldPrefab أو BoardContainer في المشهد!");
+            return;
+        }
+
+        GenerateBoard();
+    }
+
+    void GenerateBoard()
+    {
+        for (int i = 0; i < DEFAULT_NUMBER_OF_FIELDS; i++)
+        {
+            // إنشاء مربع جديد باستخدام Prefab
+            GameObject fieldGO = Instantiate(fieldPrefab, boardContainer);
+
+            // ضبط اسم المربع ليكون "Field 1", "Field 2", ...
+            fieldGO.name = "Field " + (i + 1);
+
+            // تخزين المربع في القائمة
+            fields.Add(new Field(i));
+
+            // إضافة حدث النقر على الزر
+            int fieldIndex = i; // تجنب مشكلة الـ Closure
+            fieldGO.GetComponent<Button>().onClick.AddListener(() => OnFieldClick(fieldIndex));
         }
     }
 
-    private List<Field> fields;
-    public Board()
+    void OnFieldClick(int index)
     {
-        this.fields = new List<Field>(DEFAULT_NUMBER_OF_FIELDS);
-        for(int i = 0; i < DEFAULT_NUMBER_OF_FIELDS; i++)
-        {
-            this.fields.Add(new Field(i));
-        }
-    }
-
-    public Board(Board other)
-    {
-        this.fields = new List<Field>(other.fields.Count);
-        for(int i = 0; i < other.fields.Count; i++)
-        {
-            this.fields.Add(new Field(other.fields[i]));
-        }
-    }
-
-    public Field GetField(int index)
-    {
-        return fields[index];
-    }
-
-    public List<Field> GetPlayerFields(PlayerNumber playerNumber)
-    {
-        List<Field> playerFields = new List<Field>();
-        foreach(var field in fields)
-        {
-            if(field.PawnPlayerNumber == playerNumber)
-            {
-                playerFields.Add(field);
-            }
-        }
-        return playerFields;
-    }
-
-    public List<Field> GetEmptyFields()
-    {
-        return GetPlayerFields(PlayerNumber.None);
+        Debug.Log("تم النقر على المربع: " + index);
+        // يمكنك تغيير لون الزر عند النقر عليه
+        boardContainer.GetChild(index).GetComponent<Button>().image.color = Color.red;
     }
 }
