@@ -69,8 +69,8 @@ MonoBehaviour:
     y: 0
     width: 363.19995
     height: 724.8
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 76}
+  m_MaxSize: {x: 4001, y: 4026}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -95,8 +95,8 @@ MonoBehaviour:
     y: 0
     width: 290.4
     height: 675.2
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 201, y: 226}
+  m_MaxSize: {x: 4001, y: 4026}
   m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
@@ -271,8 +271,8 @@ MonoBehaviour:
     y: 0
     width: 882.4
     height: 675.2
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 202, y: 226}
+  m_MaxSize: {x: 4002, y: 4026}
   m_ActualView: {fileID: 12}
   m_Panes:
   - {fileID: 16}
@@ -301,8 +301,8 @@ MonoBehaviour:
     m_TextWithWhitespace: "Simulator\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 290.4
-    y: 79.200005
+    x: 291.4
+    y: 24
     width: 880.4
     height: 649.2
   m_SerializedDataModeController:
@@ -335,10 +335,13 @@ MonoBehaviour:
     controlPanelWidth: 100
     controlPanelFoldoutKeys:
     - UnityEditor.DeviceSimulation.ApplicationSettingsPlugin
-    controlPanelFoldoutValues: 00
+    - UnityEditor.DeviceSimulation.ApplicationSettingsPlugin
+    controlPanelFoldoutValues: 0000
     pluginNames:
     - UnityEditor.DeviceSimulation.ApplicationSettingsPlugin
+    - UnityEditor.DeviceSimulation.ApplicationSettingsPlugin
     pluginStates:
+    - '{}'
     - '{}'
     scale: 21
     fitToScreenEnabled: 1
@@ -371,7 +374,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 754.4
+    y: 699.2
     width: 1171.8
     height: 23.599976
   m_SerializedDataModeController:
@@ -415,7 +418,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 220.40002}
     m_SelectedIDs: be720000
     m_LastClickedID: 29374
-    m_ExpandedIDs: 000000004a720000b872000000ca9a3b
+    m_ExpandedIDs: 000000009e720000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -444,7 +447,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000004a720000
+    m_ExpandedIDs: 000000009e720000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -524,8 +527,8 @@ MonoBehaviour:
     m_TextWithWhitespace: "Inspector\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 1172.8
-    y: 79.200005
+    x: 1173.8
+    y: 24
     width: 362.19995
     height: 698.8
   m_SerializedDataModeController:
@@ -575,7 +578,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 79.200005
+    y: 24
     width: 289.4
     height: 649.2
   m_SerializedDataModeController:
@@ -592,7 +595,7 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: c6720000
+      m_SelectedIDs: 
       m_LastClickedID: 0
       m_ExpandedIDs: d080fcff6486fcff0892fcff0896fcffb89bfcff4ae7fcff9ce7fcffe6e7fcffa0e8fcff82ebfcff5c3dfdff323efdff1e3ffdff623ffdff8240fdff8c54fdfff854fdff9a55fdff1856fdffc0c4fdff08c5fdff74c5fdff24c6fdff92c6fdff34c7fdffb0c7fdffeac7fdff38c8fdff6cc8fdff56edfdffc012feff1a14ffff78eeffffc6eeffff00efffff14f0fffff4f2ffff74f3ffffbcf3ffff24f4ffff80f4ffff7ef8ffff22fbffffae730000e8730000b0740000627b00001c7c0000247c00005e7c0000f87c0000227e0000d07e0000dc7e0000087f00001e7f00001483000032830000e2850000c68700009c880000b8880000068a00002a8a0000008b0000248b00002e8b00000c8d0000308d0000968e0000ba8e0000d08e00009e920000789300002a940000e8940000f894000094950000b4950000d8950000e4950000f89500007e9d000092a30000b8a4000026a50000e4a6000012a7000036a700004ca70000f0a7000034a800005ea80000cea80000
       m_RenameOverlay:
@@ -1199,7 +1202,7 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: 989.20996, y: 1395.521, z: -10.620501}
+    m_Target: {x: 0, y: 0, z: 0}
     speed: 2
     m_Value: {x: 989.20996, y: 1395.521, z: -10.620501}
   m_RenderMode: 0
@@ -1251,7 +1254,7 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 1412.4739
+    m_Target: 10
     speed: 2
     m_Value: 1412.4739
   m_Ortho:

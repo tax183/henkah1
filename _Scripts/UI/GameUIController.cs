@@ -8,6 +8,7 @@ using System.IO;
 
 public class GameUIController : MonoBehaviour
 {
+    private int selectedDifficulty = 1; // 1: سهل، 2: متوسط، 3: صعب
     private static readonly int HUMAN_DROPDOWN_NUMBER = 0;
     private static readonly int AI_DROPDOWN_NUMBER = 1;
     private static readonly int MIN_MAX_DROPDOWN_NUMBER = 0;
@@ -57,6 +58,7 @@ public class GameUIController : MonoBehaviour
     private float timePassed;
     private bool shouldLogToFile;
 
+ 
     static GameUIController()
     {
         heuristicDictionary = new Dictionary<int, Func<Heuristic>>();
@@ -314,4 +316,23 @@ public class GameUIController : MonoBehaviour
             }
         }
     }
+
+    public void SetEasyDifficulty()
+    {
+        Debug.Log("تم اختيار المستوى السهل");
+        PlayerPrefs.SetInt("Difficulty", 1);
+    }
+
+    public void SetMediumDifficulty()
+    {
+        Debug.Log("تم اختيار المستوى المتوسط");
+        PlayerPrefs.SetInt("Difficulty", 2);
+    }
+
+    public void SetHardDifficulty()
+    {
+        Debug.Log("تم اختيار المستوى الصعب");
+        PlayerPrefs.SetInt("Difficulty", 3);
+    }
+
 }
