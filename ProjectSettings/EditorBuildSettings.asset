@@ -17,5 +17,17 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/um9 menu page.unity
     guid: 41da900d9d1031f4f93e9bebd0ddc0bc
+  - enabled: 1
+    path: Assets/Scenes/frist.unity
+    guid: 21d3eaa568e217545ba57feff049414f
+  - enabled: 1
+    path: Assets/Scenes/second.unity
+    guid: 182b1c3e2ee225e458136e77f99f0cb1
+  - enabled: 1
+    path: Assets/Scenes/Third.unity
+    guid: 7062546a27f01ac45ba7aa3dd00c07cf
+  - enabled: 1
+    path: Assets/Scenes/Fourth.unity
+    guid: aac30687d30c39345a5fe444de4c0b58
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
