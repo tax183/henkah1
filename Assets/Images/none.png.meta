@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 8e559249802293f4c852c35b5e73e824
+guid: ef9346348231ba94c97226a79b6ab048
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7410714790319184193
-    second: easy_0
+      213: -4298056599330406823
+    second: none_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -96,30 +96,17 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: easy_0
+      name: none_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1245
-        height: 489
+        width: 320
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 14955b096d528d660800000000000000
-      internalID: 7410714790319184193
+      spriteID: 95e33648b4c3a54c0800000000000000
+      internalID: -4298056599330406823
       vertices: []
       indices: 
       edges: []
@@ -147,8 +134,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      easy_0: 7410714790319184193
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
