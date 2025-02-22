@@ -272,7 +272,13 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      level of mohanka_0: 212951926767011577
+      level of mohanka_1: 5390633957839204114
+      level of mohanka_2: -6858756452119207303
+      level of mohanka_3: -8376420653019029704
+      level of mohanka_4: -3335621988497392969
+      level of mohanka_5: -9123315455635451341
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

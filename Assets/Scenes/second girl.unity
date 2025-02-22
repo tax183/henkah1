@@ -464,9 +464,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 224920631}
-        m_TargetAssemblyTypeName: Link, Assembly-CSharp
-        m_MethodName: GoToThirdPage
+      - m_Target: {fileID: 224920632}
+        m_TargetAssemblyTypeName: LinkGirl, Assembly-CSharp
+        m_MethodName: GoToThirdPageGirl
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -889,9 +889,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 892769164}
-        m_TargetAssemblyTypeName: Link, Assembly-CSharp
-        m_MethodName: GoToGamesPageSecond
+      - m_Target: {fileID: 892769165}
+        m_TargetAssemblyTypeName: LinkGirl, Assembly-CSharp
+        m_MethodName: GoToFristPageSecondGirl
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1295,8 +1295,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 6261838875085568562, guid: 9e0bfdab026383c48b2cbb966a9e61c0,
-    type: 3}
+  m_Sprite: {fileID: 581927207526996229, guid: 54bf5851884648642b0b0fad8de18550, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1486,9 +1485,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1879008302}
-        m_TargetAssemblyTypeName: Link, Assembly-CSharp
-        m_MethodName: GoToFristPageSecond
+      - m_Target: {fileID: 1879008303}
+        m_TargetAssemblyTypeName: LinkGirl, Assembly-CSharp
+        m_MethodName: GoToFristPageSecondGirl
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

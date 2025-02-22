@@ -200,6 +200,7 @@ GameObject:
   - component: {fileID: 771986328}
   - component: {fileID: 771986327}
   - component: {fileID: 771986330}
+  - component: {fileID: 771986331}
   m_Layer: 5
   m_Name: Button (Legacy)
   m_TagString: Untagged
@@ -271,9 +272,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 771986330}
-        m_TargetAssemblyTypeName: Link, Assembly-CSharp
-        m_MethodName: GoToSecondPage
+      - m_Target: {fileID: 771986331}
+        m_TargetAssemblyTypeName: LinkGirl, Assembly-CSharp
+        m_MethodName: GoToSecondPageGirl
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -332,6 +333,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d0a44d49e79686947910084b2aa8e40e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &771986331
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 771986325}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6091fa0cd61dd14fb67d48d5109f6de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &828518447
@@ -861,6 +874,7 @@ GameObject:
   - component: {fileID: 1756319582}
   - component: {fileID: 1756319581}
   - component: {fileID: 1756319580}
+  - component: {fileID: 1756319584}
   m_Layer: 5
   m_Name: Button (Legacy) (1)
   m_TagString: Untagged
@@ -944,9 +958,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1756319580}
-        m_TargetAssemblyTypeName: Link, Assembly-CSharp
-        m_MethodName: GoToGamesPageFirst
+      - m_Target: {fileID: 1756319584}
+        m_TargetAssemblyTypeName: LinkGirl, Assembly-CSharp
+        m_MethodName: GoToGamesPageFirstGirl
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -995,6 +1009,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1756319578}
   m_CullTransparentMesh: 1
+--- !u!114 &1756319584
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1756319578}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6091fa0cd61dd14fb67d48d5109f6de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1834954134
 GameObject:
   m_ObjectHideFlags: 0
@@ -1148,8 +1174,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 6261838875085568562, guid: 9e0bfdab026383c48b2cbb966a9e61c0,
-    type: 3}
+  m_Sprite: {fileID: 581927207526996229, guid: 54bf5851884648642b0b0fad8de18550, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
